@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Loginapplication">
         <activity
+            android:name=".MainMenu"
+            android:exported="true" />
+        <activity
+            android:theme="@style/Theme.Design.NoActionBar"
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
